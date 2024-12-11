@@ -1,131 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SolaNyan - The Fastest Cat on the Blockchain!</title>
-    <link rel="icon" type="image/png" href="solanyan-logo.png">
+    <title>SolaNyan | The Next Big Meme Coin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <style>
+        /* General Styles */
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
-            background: linear-gradient(to bottom, #1e1e2f, #302e4d);
-            color: white;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
         }
-        header {
-            background-color: #6a0dad;
-            padding: 20px;
-            text-align: center;
-        }
-        header img {
-            width: 100px;
-            height: auto;
-            margin-bottom: 10px;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        nav {
-            background-color: #452880;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
+
+        a {
             text-decoration: none;
-            font-size: 1.2em;
+            color: #ff5e00;
         }
-        section {
-            padding: 20px;
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header */
+        header {
+            background-color: #ff5e00;
+            color: white;
+            padding: 20px 0;
             text-align: center;
         }
-        .tokenomics {
-            background: rgba(255, 255, 255, 0.1);
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1200px;
             margin: 20px auto;
             padding: 20px;
-            border-radius: 8px;
+        }
+
+        .hero {
+            background: url('https://via.placeholder.com/1200x500/ff5e00/ffffff?text=SolaNyan') no-repeat center center/cover;
+            border-radius: 10px;
+            padding: 50px 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin: 0 auto;
             max-width: 800px;
         }
-        footer {
-            background-color: #6a0dad;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+
+        .section {
+            margin-top: 40px;
         }
-        button {
-            background-color: #452880;
+
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #ff5e00;
+        }
+
+        .section p {
+            font-size: 1rem;
+        }
+
+        .cta {
+            background-color: #ff5e00;
             color: white;
-            border: none;
+            text-align: center;
+            padding: 30px 20px;
+            border-radius: 10px;
+            margin-top: 40px;
+        }
+
+        .cta h3 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .cta a {
+            display: inline-block;
+            background-color: white;
+            color: #ff5e00;
             padding: 10px 20px;
             border-radius: 5px;
-            font-size: 1em;
-            cursor: pointer;
+            font-weight: bold;
+            margin-top: 10px;
         }
-        button:hover {
-            background-color: #6a0dfd;
+
+        .cta a:hover {
+            background-color: #f7d7c6;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            background-color: #131313;
+            color: white;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #ff5e00;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero h2 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .section h2 {
+                font-size: 1.8rem;
+            }
         }
     </style>
 </head>
+
 <body>
+    <!-- Header Section -->
+    <header>
+        <h1>SolaNyan</h1>
+        <p>The Future of Fun and Fast Meme Coins on Solana</p>
+    </header>
 
-<header>
-    <img src="solanyan-logo.png" alt="SolaNyan Logo">
-    <h1>SolaNyan</h1>
-    <p>The Fastest Cat on the Blockchain!</p>
-</header>
+    <!-- Hero Section -->
+    <div class="container">
+        <div class="hero">
+            <h2>Welcome to SolaNyan!</h2>
+            <p>SolaNyan is here to take the meme coin universe by storm! Fueled by the power of Solana’s lightning-fast technology and a community full of energy, we’re making history—one paw at a time!</p>
+        </div>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#tokenomics">Tokenomics</a>
-    <a href="#contact">Contact</a>
-</nav>
+        <!-- About Section -->
+        <section class="section about">
+            <h2>Why SolaNyan?</h2>
+            <p>SolaNyan isn’t just another meme coin. It’s a movement. Born from the desire to unite fun, community, and cutting-edge blockchain technology, SolaNyan is here to pump spirits, wallets, and the meme game itself. With Solana’s blazing speed and low fees, SolaNyan is built for mass adoption and exponential growth.</p>
+        </section>
 
-<section id="about">
-    <h2>About SolaNyan</h2>
-    <p>SolaNyan is a meme coin for the whisker-loving, paw-sitive hodlers in the Solana ecosystem. With its vibrant and futuristic design, SolaNyan brings humor, creativity, and fun to the blockchain!</p>
-</section>
+        <!-- Community Focus Section -->
+        <section class="section community">
+            <h2>Join the Community</h2>
+            <p>At the heart of SolaNyan is YOU. Our community drives the memes, the movements, and the momentum. Whether you’re here for the fun, the gains, or just the memes, there’s a place for you in the SolaNyan family.</p>
+        </section>
 
-<section id="tokenomics">
-    <h2>Tokenomics</h2>
-    <div class="tokenomics">
-        <p><strong>Total Supply:</strong> 1 trillion $NYAN</p>
-        <p><strong>Distribution:</strong></p>
-        <ul>
-            <li>50% Airdropped to early adopters and community events</li>
-            <li>30% Liquidity pool</li>
-            <li>10% Community treasury</li>
-            <li>5% Charity fund for animal shelters</li>
-            <li>5% Developer fund</li>
-        </ul>
-        <p><strong>Transaction Fees:</strong></p>
-        <ul>
-            <li>2% redistributed to holders</li>
-            <li>1% burned per transaction</li>
-        </ul>
+        <!-- Call to Action Section -->
+        <div class="cta">
+            <h3>Let’s Make Meme History!</h3>
+            <p>Don’t miss your chance to be part of the next big thing. Join SolaNyan now and let’s ride to the moon together!</p>
+            <a href="#">Join the Revolution</a>
+        </div>
     </div>
-</section>
 
-<section id="contact">
-    <h2>Contact Us</h2>
-    <form action="#" method="post">
-        <p><label for="name">Your Name:</label></p>
-        <p><input type="text" id="name" name="name" required></p>
-        <p><label for="email">Your Email:</label></p>
-        <p><input type="email" id="email" name="email" required></p>
-        <p><label for="message">Your Message:</label></p>
-        <p><textarea id="message" name="message" rows="4" required></textarea></p>
-        <p><button type="submit">Send Message</button></p>
-    </form>
-</section>
-
-<footer>
-    <p>&copy; 2024 SolaNyan. All Rights Reserved.</p>
-</footer>
-
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 SolaNyan. All Rights Reserved.</p>
+        <p>Connect with us: <a href="https://twitter.com/solanyan" target="_blank">Twitter</a> | <a href="https://discord.com/solanyan" target="_blank">Discord</a></p>
+    </footer>
 </body>
+
 </html>
